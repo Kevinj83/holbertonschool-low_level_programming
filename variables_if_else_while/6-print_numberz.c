@@ -11,10 +11,10 @@ int main(void)
 
     for (i = 0; i < 10; i++)
     {
-        putchar(i + '0'); // Convert the integer to its corresponding character
+        putchar(i + '0');
     }
 
-    putchar('\n'); // Print a newline character
+    putchar('\n');
 
     return (0);
 }
