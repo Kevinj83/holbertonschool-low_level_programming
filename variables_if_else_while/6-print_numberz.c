@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+/**
+ * main - Prints all single-digit numbers from 0 to 9
+ *
+ * Return: Always (Success)
+ */
+int main(void)
+{
+    int i;
+
+    for (i = 0; i < 10; i++)
+    {
+        putchar(i + '0'); // Convert the integer to its corresponding character
+    }
+
+    putchar('\n'); // Print a newline character
+
+    return (0);
+}
