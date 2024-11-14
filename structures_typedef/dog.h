@@ -5,11 +5,11 @@
  * struct dog - a dog's basic info
  * @name: first member
  * @age: second member
- * @owner: thirnd member 
+ * @owner: thirnd member
  *
  * Description: longer description
  */
-struct dog 
+struct dog
 {
 	char *name;
 	float age;
